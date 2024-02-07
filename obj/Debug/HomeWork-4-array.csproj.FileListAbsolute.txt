@@ -1,0 +1,8 @@
+D:\VS\All_Home_Works\HomeWork-4-array\bin\Debug\HomeWork-4-array.exe.config
+D:\VS\All_Home_Works\HomeWork-4-array\bin\Debug\HomeWork-4-array.exe
+D:\VS\All_Home_Works\HomeWork-4-array\bin\Debug\HomeWork-4-array.pdb
+D:\VS\All_Home_Works\HomeWork-4-array\obj\Debug\HomeWork-4-array.csproj.AssemblyReference.cache
+D:\VS\All_Home_Works\HomeWork-4-array\obj\Debug\HomeWork-4-array.csproj.SuggestedBindingRedirects.cache
+D:\VS\All_Home_Works\HomeWork-4-array\obj\Debug\HomeWork-4-array.csproj.CoreCompileInputs.cache
+D:\VS\All_Home_Works\HomeWork-4-array\obj\Debug\HomeWork-4-array.exe
+D:\VS\All_Home_Works\HomeWork-4-array\obj\Debug\HomeWork-4-array.pdb
