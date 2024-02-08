@@ -14,37 +14,37 @@ namespace HomeWork_4_array
             int numberOfColumns;
             int sumOfLine = 0;
             int multiplicationOfColumns = 1;
+            int minRandom = 3;
+            int maxRandom = 5;
+            int firstColumn = 0;
+            int secondLine = 1;
 
-            Random randomOfLines = new Random();
-            numberOfLines = randomOfLines.Next(3, 5);
+            Random random = new Random();
             
-            Random randomOfColumns = new Random();
-            numberOfColumns = randomOfColumns.Next(3, 5);
+            numberOfLines = random.Next(minRandom, maxRandom +1);
+            numberOfColumns = random.Next(minRandom, maxRandom +1);
             
-            int[,] myArray = new int[numberOfLines, numberOfColumns];
-            Random myRandom = new Random();
+            int[,] array = new int[numberOfLines, numberOfColumns];
+            Random randomArrayNumbers = new Random();
 
-            for (int i = 0; i < myArray.GetLength(0); i++)
+            for (int i = 0; i < array.GetLength(0); i++)
             {
-                for(int j = 0; j < myArray.GetLength(1); j++)
+                for(int j = 0; j < array.GetLength(1); j++)
                 {
-                    myArray[i, j] = myRandom.Next(1, 5);
-                    Console.Write(myArray[i, j] + " ");
+                    array[i, j] = randomArrayNumbers.Next(1, 5);
+                    Console.Write(array[i, j] + " ");
                 }
                 Console.WriteLine();
             }
 
-            for (int j = 0; j < myArray.GetLength(1); j++)
+            for (int j = 0; j < array.GetLength(1); j++)
             {
-                if (j < myArray.GetLength(1))
-                {
-                    sumOfLine += myArray[1, j];
-                }
+                sumOfLine += array[secondLine, j];
             }
 
-            for (int i = 0; i < myArray.GetLength(0); i++)
+            for (int i = 0; i < array.GetLength(0); i++)
             {
-                multiplicationOfColumns *= myArray[i, 0];
+                multiplicationOfColumns *= array[i, firstColumn];
             }
 
             Console.WriteLine(sumOfLine + " - Сумма второй строки");
